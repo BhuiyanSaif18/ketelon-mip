@@ -64,6 +64,14 @@ const NavigationItems = [
         icon: 'feather icon-server',
         classes: 'nav-item'
       },
+      {
+        id: 'sample-page',
+        title: 'Games',
+        type: 'item',
+        url: '/games',
+        classes: 'nav-item',
+        icon: 'feather icon-sidebar'
+      }
       // {
       //   id: 'page-layouts',
       //   title: 'Page Layouts',

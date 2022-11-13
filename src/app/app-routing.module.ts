@@ -46,13 +46,13 @@ const routes: Routes = [
         loadChildren: () => import('./demo/pages/core-maps/core-maps.module').then(module => module.CoreMapsModule)
       },
       {
-        path: 'sample-page',
+        path: 'games',
         loadChildren: () => import('./demo/pages/sample-page/sample-page.module').then(module => module.SamplePageModule)
       },
-      {
-        path: 'sample-page',
-        loadChildren: () => import('./demo/pages/sample-page/sample-page.module').then(module => module.SamplePageModule)
-      }
+      // {
+      //   path: 'sample-page',
+      //   loadChildren: () => import('./demo/pages/sample-page/sample-page.module').then(module => module.SamplePageModule)
+      // }
     ]
   },
   {

@@ -11,5 +11,7 @@ export class SamplePageComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  play(){
+    window.location.href = "https://play.typeracer.com/?rt=nm5chhwu4";
+  }
 }
