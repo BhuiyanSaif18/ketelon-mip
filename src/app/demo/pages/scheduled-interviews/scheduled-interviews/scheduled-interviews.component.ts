@@ -11,5 +11,8 @@ export class ScheduledInterviewsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  joiningLink(){
+    window.location.href = "https://video.sebastienbiollo.com/angular-interview-11132022"
+  }
 
 }
