@@ -45,7 +45,7 @@ const NavigationItems = [
         title: 'Set Availability',
         type: 'item',
         url: '/set-availability',
-        icon: 'feather icon-home',
+        icon: 'ffeather icon-pie-chart',
         classes: 'nav-item'
       },
       {
@@ -53,7 +53,7 @@ const NavigationItems = [
         title: 'Schedule interview',
         type: 'item',
         url: '/schedule-interview',
-        icon: 'feather icon-home',
+        icon: 'feather icon-file-text',
         classes: 'nav-item'
       },
       {
@@ -61,7 +61,7 @@ const NavigationItems = [
         title: 'Scheduled interviews',
         type: 'item',
         url: '/scheduled-interviews',
-        icon: 'feather icon-home',
+        icon: 'feather icon-server',
         classes: 'nav-item'
       },
       // {
@@ -318,7 +318,7 @@ const NavigationItems = [
   //       classes: 'nav-item',
   //       icon: 'feather icon-sidebar'
   //     }
-    // ]
+  //   ]
   // }
 ];
 

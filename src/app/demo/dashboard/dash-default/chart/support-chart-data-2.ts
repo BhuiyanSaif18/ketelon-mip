@@ -7,7 +7,7 @@ export class SupportChartData2 {
         enabled: true
       }
     },
-    colors: ['#9ccc65'],
+    colors: ['#03CC83'],
     stroke: {
       curve: 'smooth',
       width: 2,

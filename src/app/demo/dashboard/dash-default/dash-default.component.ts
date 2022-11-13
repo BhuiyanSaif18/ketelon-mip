@@ -20,6 +20,50 @@ export class DashDefaultComponent implements OnInit {
   public seoChartData3: any;
   public powerCardChartData1: any;
   public powerCardChartData2: any;
+  mockData : MockInterviews[] = [{
+    Interviewer : "Saif Bhuiyan",
+    InterviewerDesignation : "Senior Angular Developer",
+    InterviewerPic : "assets/images/user/avatar-4.jpg",
+    Interviewee : "Samuel Adebayo",
+    IntervieweeDesignation:"50",
+    IntervieweePic:"assets/images/user/avatar-2.jpg",
+    Topic : "Senior Angular Developer",
+    Date : "10",
+    JoiningLink : "5"
+  },
+  {
+    Interviewer : "Ragib Ishraq",
+    InterviewerDesignation : "Senior Angular Developer",
+    InterviewerPic : "assets/images/user/avatar-5.jpg",
+    Interviewee : "Ragib Ishraq",
+    IntervieweeDesignation:"40",
+    IntervieweePic:"assets/images/user/avatar-3.jpg",
+    Topic : "Angular Developer",
+    Date : "8",
+    JoiningLink : "5"
+  },
+  {
+    Interviewer : "Ashaduzzaman",
+    InterviewerDesignation:"Senior .NET Developer",
+    InterviewerPic : "assets/images/user/avatar-1.jpg",
+    Interviewee : "Mithun Das",
+    IntervieweeDesignation:"35",
+    IntervieweePic:"assets/images/user/avatar-5.jpg",
+    Topic : ".NET Developer",
+    Date : "7",
+    JoiningLink : "5"
+  },
+  {
+    Interviewer : "Samuel Adebayo",
+    InterviewerDesignation:"Senior React Developer",
+    InterviewerPic : "assets/images/user/avatar-2.jpg",
+    Interviewee : "Mithun Das",
+    IntervieweeDesignation:"25",
+    IntervieweePic:"assets/images/user/avatar-5.jpg",
+    Topic : "Senior React Developer",
+    Date : "2",
+    JoiningLink : "5"
+  }];
 
   constructor() {
     this.supportChartData1 = SupportChartData1.supportChartData;
@@ -33,5 +77,19 @@ export class DashDefaultComponent implements OnInit {
 
   ngOnInit() {
   }
+  joiningLink(link :string){
 
+  }
+
+}
+class MockInterviews {
+  Interviewer : string;
+  InterviewerDesignation:string;
+  InterviewerPic : string;
+  Interviewee : string;
+  IntervieweeDesignation:string;
+  IntervieweePic : string;
+  Topic : string;
+  Date : string;
+  JoiningLink : string
 }
