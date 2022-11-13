@@ -1,6 +1,6 @@
 <perfect-scrollbar *ngIf="this.nextConfig['layout'] === 'vertical'" (clickOutside)="navMob()" [excludeBeforeClick]="true" [exclude]="'#mobile-collapse'" id="nav-ps-next" ngClass="able-pro-scroll" [style.max-width]="'300px'" [style.max-height]="'calc(100vh - 60px)'" [usePSClass]="'next'" [disabled]="null">
   <div class="navbar-content">
-    <div class="">
+    <div class="mb-32">
       <div class="main-menu-header">
         <img class="img-radius" src="assets/images/user/avatar-4.jpg" alt="User-Profile-Image">
         <div class="user-details" (click)="isNavProfile = !isNavProfile">
@@ -10,13 +10,15 @@
         </div>
       </div>
     </div>
-    <ul class="nav pcoded-inner-navbar" (clickOutside)="fireOutClick()">
-      <ng-container *ngFor="let item of navigation">
-        <app-nav-group *ngIf="item.type=='group'" [item]="item"></app-nav-group>
-        <app-nav-collapse *ngIf="item.type=='collapse'" [item]="item"></app-nav-collapse>
-        <app-nav-item *ngIf="item.type=='item'" [item]="item"></app-nav-item>
-      </ng-container>
-    </ul>
+    <div class="mt-32">
+      <ul class="nav pcoded-inner-navbar" (clickOutside)="fireOutClick()">
+        <ng-container *ngFor="let item of navigation">
+          <app-nav-group *ngIf="item.type=='group'" [item]="item"></app-nav-group>
+          <app-nav-collapse *ngIf="item.type=='collapse'" [item]="item"></app-nav-collapse>
+          <app-nav-item *ngIf="item.type=='item'" [item]="item"></app-nav-item>
+        </ng-container>
+      </ul>
+    </div>
   </div>
 </perfect-scrollbar>
 

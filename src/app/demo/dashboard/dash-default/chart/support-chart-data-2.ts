@@ -13,7 +13,7 @@ export class SupportChartData2 {
       width: 2,
     },
     series: [{
-      data: [0, 20, 10, 45, 30, 55, 20, 30, 0]
+      data: [0, 7, 3, 15, 10, 5, 10]
     }],
     tooltip: {
       fixed: {
